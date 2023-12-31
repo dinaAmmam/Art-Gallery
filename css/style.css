@@ -1,0 +1,570 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*home page style*/
+/*start of navbar*/
+.nav{
+    background-color:#2b2926;
+    height: 90px;
+}
+.navbar{
+    padding-left: 500px;
+    display: inline;
+}
+.nav span{
+    color: black;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 15px;
+    display: none;
+}
+.nav-ul{
+    list-style: none;
+    display: inline; 
+}
+#link-nav{
+display: inline-block;
+padding-top: 30px;
+padding-left: 10px;
+}
+.nav-a{
+    text-decoration: none;
+    color: white;
+
+}
+.nav i{
+    font-size: 20px;
+
+}
+.nav-li{
+    display: inline;
+    padding: 4px;
+    
+}
+i{
+    color: #ffffff;
+}
+/*end of navbar*/
+/*start of header */
+.header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.315),rgba(0, 0, 0, 0.404)),url(../images/art5.jpg);
+    background-size: 100% 90vh;
+    height: 90vh;
+    background-repeat: no-repeat;
+    
+}
+.header h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 50px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.header p{
+    text-align: center;
+    text-transform: capitalize;
+    display: inline-block;
+    color: #fff;
+    margin-left: 510px;
+    font-size: 20px;
+    margin-top: 0px;
+    
+}
+.header h5{
+    color: #FFFADD;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+.header a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    display: inline-block;
+    width: 100px;
+    height:20px;
+    padding: 12px;
+    margin-left: 100px;
+    margin-top: 15px;
+    border-radius: 30px;
+
+}
+/* end of header*/
+/* start of products */
+.products{
+    margin-top:100px;
+}
+.products h1{
+    text-align: center;
+    font-size: 40px;
+    color: #39342f;
+}
+.products p{
+    text-align: center;
+    color:#6d6256;
+    padding-left: 300px;
+    padding-right:300px ;
+    padding-bottom: 30px;
+}
+.products .img{
+    display: inline-block;
+    padding: 30px;
+    margin-left: 100px;
+    padding-left: 90px;
+
+}
+.products img{
+    width: 450px;
+    height: 450px;
+    padding-bottom: 50px;
+}
+.btn {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #39342f;
+    display: inline-block;
+    width: 100px;
+    height:20px;
+    padding: 12px;
+    margin-left: 600px;
+    margin-top: 15px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+
+}
+.hbtn{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #39342f;
+    display: inline-block;
+    width: 100px;
+    height:20px;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    margin-left: -300px;
+    margin-right: 10px;
+
+}
+/*end of products section */
+/*start of footer*/
+footer{
+    display: flex;
+    background-color: #2b2926;
+    justify-content: space-around;
+    height: 150px;
+    padding: 60px;
+    
+}
+.footer h5{
+    color: #fff;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.footer p,li,i{
+    color:rgba(206, 203, 203, 0.562)
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.footer li{
+  padding-bottom: 10px;
+}
+.footer i{
+    padding-right: 10px;
+    margin-left: 0px;
+}
+#footer-h5{
+    padding-left: 20px;
+}
+/*end footer*/
+/*end of home page */
+/* start of register & login page style  & dashboard form & contact us form*/
+ .register , .login  , .contact {
+    background-color: #F3EEEA;
+    height: 800px;
+    width: 100%;
+    margin-top: 100px;
+    margin-top: 0px;
+    
+}
+
+.dashboard{
+    background-color: #F3EEEA;
+    height: 1500px;
+    width: 100%;
+    margin-top: 100px;
+    margin-top: 0px;
+
+}
+.register .form  {
+    background-color: #fff;
+    height: 550px;
+    width: 600px;
+    margin-left: 370px;
+}
+.login .form , .contact .form {
+    background-color: #fff;
+    height: 400px;
+    width: 600px;
+    margin-left: 370px;
+
+}
+.dashboard .form  {
+    background-color: #fff;
+    height: 1200px;
+    width: 600px;
+    margin-left: 370px;
+    padding-top: 30px;   
+}
+.register h1 , .login h1 , .dashboard h1 , .contact h1 , .cart-form h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.register .form h2 , .login .form h2 , .contact .form h2 , .cart-form .form h2{ 
+    color: #000;
+    font-size: 20px;
+    padding: 30px;
+}
+.register label , .login label , .dashboard label , .contact label , .cart-form label{
+    padding-left: 30px;
+}
+.register .form input[type=email] , input[type=password] , input[type=text] , 
+.login .form input[type=email] , input[type=password] , input[type=text] ,
+.dashboard .form input[type=file], input[type=text],
+.contact .form input[type=email] , input[type=text] , textarea,
+.cart-form .form input[type=email] , input[type=text] , textarea
+{
+    width: 90%;
+    margin-left: 25px;
+    border-radius: 15px;
+    border-color:rgba(0, 0, 0, 0.212) ;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.register .form input[type=submit] , .login .form input[type=submit] , .contact .form input[type=submit] ,
+.cart-form .form input[type=submit]
+{
+   background-color: #B0A695;
+   color: #fff;
+   padding: 10px 15px;
+   border-color:rgb(105, 103, 103) ;
+   border-radius: 15px;
+   margin-left: 250px;
+}
+.cart-form .form {
+    padding-bottom: 40px;
+
+}
+
+.dashboard .btn-dash{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #39342f;
+    display: inline-block;
+    width: 150px;
+    height:30px;
+    padding: 12px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    border-radius: 30px;
+    margin-left: 35px;
+
+}
+.error{
+    color: red;
+    margin-left: 25px;
+}
+.correct{
+    border:2px solid green !important;
+}
+.incorrect{
+    border:2px solid red !important;
+}
+/* end of register page style */
+/*dashboard*/
+.dash-tbl{
+    width:500px;
+    padding:10px;
+    margin:10px auto;
+    text-align:center;
+}
+.dash-tbl .tds{
+    border:2px solid rgba(0, 0, 0, 0.212);
+}
+.dash-tbl .th{
+    border:2px solid rgba(0, 0, 0, 0.212);
+}
+.dash-tbl .img{
+    margin-left: 30px;
+}
+.imgholder img{
+    margin-left: 30px;
+
+}
+/*end dashboard*/
+/* start about us page*/
+.super{
+    display: block;
+    background-color: #F3EEEA;
+}
+.about{
+    background-color: #39342f;
+    width: 80%;
+    height: 720px;
+    margin-left: 120px;
+    margin-top: 90px;
+    display: inline-block;
+    padding-left: 30px;
+}
+.about .aboutcon{
+    background-color: #FFFBF5;
+    width: 50%;
+    height: 300px;
+    margin-left: 400px;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+ .about img{
+     height: 460px;
+     padding-top: 0px;
+     padding-bottom: 200px;
+     margin-top: -550px;
+     padding-left: 50px;
+     display: inline;
+ }
+ .about   p {
+    color: white;
+    margin-left: 500px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 120px;
+    padding-bottom: 40px;
+
+
+ }
+ .about .aboutcon h3{
+    color: #39342f;
+    display: inline-block;
+    margin-left: 200px;
+    font-size: 100px;
+    height: 100px;
+
+
+
+ }
+ .about {
+     padding-top: 20px;
+ }
+
+/*end about us page*/
+/* start gallery page*/
+.container h3{
+    text-align: center;
+    color: #776B5D;
+}
+.container{
+    display: inline-block;
+    color: #3F2305;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    padding-bottom: 5px;
+    border: 2px solid #BBAB8C ;
+    border-radius: 3%;
+    margin-left: 20px;
+    background-color: #fff;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    margin-top: 60px;
+}
+
+.gbtn{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #39342f;
+    display: inline-block;
+    width: 100px;
+    height:20px;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+
+}
+#main{
+   background-color: #F3EEEA;
+   padding: 30px;
+
+}
+#main .c{
+    padding-bottom: 50px;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+#main h1{
+    text-align: center;
+    color:#423e38;
+    margin-bottom: 60px;
+
+}
+
+
+.gall-tbl{
+    padding:10px;
+    margin:10px auto;
+    text-align:center;
+}
+.gall-tbl .tds{
+    border:2px solid rgba(0, 0, 0, 0.212);
+}
+.gall-tbl .th{
+    border:0px;
+}
+.gall-tbl .img{
+    margin-left: 30px;
+}
+/*end gallery page */
+/*cart page*/
+.ca{
+    background-color:#e2d0bd ;
+    padding-top: 50px;
+    height: 00px;
+    width: 500px;
+    border-radius: 20px;
+    margin: 0px;
+    margin-left:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+#cart-cont{
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: -1000px;
+    display: flex;
+    flex-direction: column;
+}
+.containercart {
+    width: 150px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+}
+.containercart  img{
+    width: 100px;
+    height: 100px;
+
+    display: inline;
+    margin: 20px;
+
+}
+.cart-form .form  {
+    background-color: #fff;
+    height: 500px;
+    width: 600px;
+    margin-left: 370px;
+    display: block;
+}
+.parent-cart{
+    background-color:#F3EEEA;
+
+}
+.carttbl{
+    width:500px;
+    padding:10px;
+    margin:10px auto;
+    text-align:center;
+}
+.parent-cart h1{
+    text-align: center;
+    color: #423e38;
+}
+.carttbl .tds{
+    border:2px solid rgba(0, 0, 0, 0.212);
+}
+.carttbl .th{
+    border:2px solid rgba(0, 0, 0, 0.212);
+}
+.carttbl .img{
+    margin-left: 30px;
+}
+/*details page */
+#pdetails h1{
+    text-align: center;
+    padding-top: 20px;
+    color: #423e38;
+}
+#pdetails {
+    background-color:#F3EEEA;
+
+}
+#pdetails .container{
+    margin-left: 470px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+
+}
+#pdetails .container button{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #39342f;
+    display: inline-block;
+    width: 100px;
+    height:20px;
+    padding-bottom: 20px;
+    padding-top: 8px;
+    margin-top: 15px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+.cbtn{
+
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        background-color: #39342f;
+        display: inline-block;
+        width: 100px;
+        height:20px;
+        padding: 12px;
+        padding-bottom: 25px;
+        margin-top: 15px;
+        border-radius: 30px;
+        margin-bottom: 50px;
+        margin-left: 600px;
+    
+
+}
+.cart-form{
+    background-color:#F3EEEA;
+    padding-top:70px ;
+    padding-bottom: 70px;
+}
+#p{
+    display: none;
+}
+
+
